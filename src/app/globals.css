@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* BabyBeanPT brand colors */
+  --primary-cream: #F5F0E5;
+  --secondary-sage: #9DA774;
+  --baby-blue: #E3F2FD;
+  --soft-pink: #FCE4EC;
+  --warm-cream: #FFF8E1;
+  --sage-green: #E8F5E8;
+  --gentle-gray: #F5F5F5;
 }
 
 @theme inline {
@@ -19,8 +27,38 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom animations for gentle, baby-friendly feel */
+@keyframes gentle-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.gentle-fade-in {
+  animation: gentle-fade-in 0.8s ease-out;
+}
+
+/* Custom hover effects */
+.gentle-hover {
+  transition: all 0.3s ease;
+}
+
+.gentle-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
