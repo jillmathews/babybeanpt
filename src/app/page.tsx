@@ -34,7 +34,7 @@ export default function Home() {
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Specialized, evidence-based physical therapy helping babies reach their developmental milestones 
-              with gentle, nurturing care that puts your family's comfort first.
+              with gentle, nurturing care that puts your family&apos;s comfort first.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -74,7 +74,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Specialized Care for Your Baby's Development
+              Specialized Care for Your Baby&apos;s Development
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We provide gentle, evidence-based physical therapy to help babies overcome challenges 
@@ -123,7 +123,7 @@ export default function Home() {
               <div className="text-4xl mb-4">🏠</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
               <p className="text-gray-600">
-                Convenient in-home therapy sessions in your baby's familiar environment, 
+                Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
                 with family education and environmental modifications.
               </p>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
               Service Packages
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the care package that best fits your baby's needs and your family's schedule.
+              Choose the care package that best fits your baby&apos;s needs and your family&apos;s schedule.
             </p>
           </div>
           
@@ -288,14 +288,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-                Meet Your Baby's Physical Therapist
-              </h2>
-              
-              <div className="space-y-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
+              Meet Your Baby&apos;s Physical Therapist
+            </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I'm Jill Mathews, a licensed pediatric physical therapist with a specialized focus on 
-                  infant development. With over [X20] years of experience, I'm passionate about helping babies 
+                  Hi! I&apos;m Jill Mathews, a licensed pediatric physical therapist with a specialized focus on 
+                  infant development. With over 20 years of experience, I&apos;m passionate about helping babies 
                   reach their developmental milestones through gentle, evidence-based therapy.
                 </p>
                 
@@ -327,7 +325,7 @@ export default function Home() {
                       <p className="text-gray-600">
                         I believe every baby deserves the gentlest possible care. My approach combines 
                         evidence-based techniques with a deep understanding of infant development, 
-                        always prioritizing your baby's comfort and your family's peace of mind.
+                        always prioritizing your baby&apos;s comfort and your family&apos;s peace of mind.
                       </p>
                     </div>
                   </div>
@@ -369,7 +367,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center">
                   <span className="mr-3" style={{ color: '#9DA774' }}>✉️</span>
-                  <span>jillmmathews@babybeanpt.com</span>
+                  <span>jill@babybeanpt.com</span>
                 </div>
                 <div className="flex items-center">
                   <span className="mr-3" style={{ color: '#9DA774' }}>📍</span>
@@ -420,7 +418,7 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Business Hours</h4>
               <ul className="space-y-2 text-gray-300">
                 <li>By appointment</li>
-                <li>Flexible scheduling to meet each family's individual needs</li>
+                <li>Flexible scheduling to meet each family&apos;s individual needs</li>
                 <li className="pt-2" style={{ color: '#9DA774' }}>
                   
                 </li>
@@ -430,7 +428,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 mt-12 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 BabyBeanPT. All rights reserved. | Licensed Physical Therapy Practice
+              © 2025 BabyBeanPT LLC. All rights reserved. | Licensed Physical Therapy Practice
             </p>
           </div>
         </div>
