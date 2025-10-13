@@ -443,13 +443,13 @@ export default function Home() {
             
             <div className="lg:order-first">
               <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <div className="absolute inset-0 flex items-center justify-center" style={{ background: `linear-gradient(135deg, #F5F0E5, #9DA774)` }}>
-                  <div className="text-center text-gray-700">
-                    <div className="text-8xl mb-4">👩‍⚕️</div>
-                    <p className="text-xl font-semibold">Professional Photo Here</p>
-                    <p className="text-lg">Gentle, Expert Care</p>
-                  </div>
-                </div>
+                <Image
+                  src="/ma.jpg"
+                  alt="Physical Therapist - Professional Photo"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
             </div>
           </div>
