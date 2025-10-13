@@ -45,7 +45,19 @@ export default function Home() {
                 View Our Services
               </button>
               <button 
-                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeaRtY4x4XFd3P8MNPOdhgcDpSmFj_uaHUX_HXNekGImOYy4g/viewform?usp=sharing&ouid=112895189164803599407', '_blank')}
+                onClick={() => {
+                  // Scroll to the intake form section
+                  document.getElementById('intake-form')?.scrollIntoView({ behavior: 'smooth' });
+                  // After scrolling, show the form
+                  setTimeout(() => {
+                    const formContainer = document.getElementById('form-container');
+                    const button = document.getElementById('toggle-button');
+                    if (formContainer && button) {
+                      formContainer.style.display = 'block';
+                      button.textContent = 'Hide Form';
+                    }
+                  }, 800);
+                }}
                 className="text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg hover:opacity-90"
                 style={{ backgroundColor: '#9DA774' }}
               >
@@ -171,23 +183,23 @@ export default function Home() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>90-minute comprehensive evaluation</span>
+                  <span className="text-gray-800">90-minute comprehensive evaluation</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Detailed development assessment</span>
+                  <span className="text-gray-800">Detailed development assessment</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Personalized treatment plan</span>
+                  <span className="text-gray-800">Personalized treatment plan</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Home exercise program</span>
+                  <span className="text-gray-800">Home exercise program</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Family education session</span>
+                  <span className="text-gray-800">Family education session</span>
                 </li>
               </ul>
               
@@ -216,27 +228,27 @@ export default function Home() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>4 or 8 session packages available</span>
+                  <span className="text-gray-800">4 or 8 session packages available</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>45-minute treatment sessions</span>
+                  <span className="text-gray-800">45-minute treatment sessions</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Progress tracking and updates</span>
+                  <span className="text-gray-800">Progress tracking and updates</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Modified home exercises</span>
+                  <span className="text-gray-800">Modified home exercises</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Parent education and support</span>
+                  <span className="text-gray-800">Parent education and support</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Flexible scheduling</span>
+                  <span className="text-gray-800">Flexible scheduling</span>
                 </li>
               </ul>
               
@@ -259,23 +271,23 @@ export default function Home() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>In-home therapy sessions</span>
+                  <span className="text-gray-800">In-home therapy sessions</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Environmental assessment</span>
+                  <span className="text-gray-800">Environmental assessment</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Equipment recommendations</span>
+                  <span className="text-gray-800">Equipment recommendations</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Sibling observation included</span>
+                  <span className="text-gray-800">Sibling observation included</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span>Travel within 20 miles</span>
+                  <span className="text-gray-800">Travel within 20 miles</span>
                 </li>
               </ul>
               
@@ -284,6 +296,95 @@ export default function Home() {
                 <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
                   Request Home Visit
                 </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Intake Form Section */}
+      <section id="intake-form" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
+              Get Started Today
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+              Complete our intake form to begin your baby&apos;s journey toward healthy development. 
+              This helps us understand your child&apos;s unique needs and prepare for your first consultation.
+            </p>
+            <button
+              onClick={() => {
+                const formContainer = document.getElementById('form-container');
+                const button = document.getElementById('toggle-button');
+                if (formContainer && button) {
+                  if (formContainer.style.display === 'none' || formContainer.style.display === '') {
+                    formContainer.style.display = 'block';
+                    button.textContent = 'Hide Form';
+                    formContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  } else {
+                    formContainer.style.display = 'none';
+                    button.textContent = 'Show Intake Form';
+                  }
+                }
+              }}
+              id="toggle-button"
+              className="text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg hover:opacity-90 hover:shadow-xl"
+              style={{ backgroundColor: '#9DA774' }}
+            >
+              Show Intake Form
+            </button>
+          </div>
+          
+          <div 
+            id="form-container" 
+            className="hidden bg-white rounded-2xl shadow-2xl p-6 border-2"
+            style={{ 
+              borderColor: '#9DA774',
+              display: 'none'
+            }}
+          >
+            <div className="flex justify-between items-center mb-6">
+              <h3 className="text-2xl font-bold text-gray-800">Intake Form</h3>
+              <button
+                onClick={() => {
+                  const formContainer = document.getElementById('form-container');
+                  const button = document.getElementById('toggle-button');
+                  if (formContainer && button) {
+                    formContainer.style.display = 'none';
+                    button.textContent = 'Show Intake Form';
+                  }
+                }}
+                className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
+              >
+                ✕
+              </button>
+            </div>
+            
+            <div className="w-full overflow-hidden rounded-lg">
+              <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeaRtY4x4XFd3P8MNPOdhgcDpSmFj_uaHUX_HXNekGImOYy4g/viewform?embedded=true" 
+                width="100%" 
+                height="800" 
+                style={{ border: 'none', borderRadius: '8px' }}
+                title="Baby Bean PT Intake Form"
+              >
+                Loading…
+              </iframe>
+              
+              <div className="mt-4 text-center">
+                <p className="text-sm text-gray-500 mb-3">
+                  Having trouble with the form? 
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeaRtY4x4XFd3P8MNPOdhgcDpSmFj_uaHUX_HXNekGImOYy4g/viewform" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="ml-1 underline"
+                    style={{ color: '#9DA774' }}
+                  >
+                    Open in new window
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -435,7 +536,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 mt-12 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 BabyBeanPT LLC. All rights reserved. | Licensed Physical Therapy Practice
+              © 2025 BabyBeanPT LLC. | Licensed Physical Therapy Practice
             </p>
           </div>
         </div>
