@@ -7,30 +7,25 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="py-6 px-4 sm:px-6 lg:px-8 bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center">
-            <Image
-              src="/logo.png"
-              alt="Baby Bean Physical Therapy Logo"
-              width={60}
-              height={60}
-              className="mr-3"
-              priority
-            />
-            <h1 className="text-2xl sm:text-3xl font-bold" style={{ color: '#9DA774' }}>
-              Baby Bean Physical Therapy
-            </h1>
-          </div>
+        <div className="max-w-7xl mx-auto flex items-center justify-start">
+          <Image
+            src="/babybeanptfull.png"
+            alt="Baby Bean Physical Therapy"
+            width={175}
+            height={45}
+            className="h-auto"
+            priority
+          />
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="pt-2 pb-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
-            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+            <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight" style={{color: '#9DA774'}}>
               Infant Physical Therapy
-              <span className="block" style={{ color: '#9DA774' }}>Nurturing Healthy Development</span>
+              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Specialized, evidence-based physical therapy helping babies reach their developmental milestones 
@@ -104,7 +99,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👶</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Plagiocephaly Support</h3>
               <p className="text-gray-600">
@@ -122,7 +117,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">🤲</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Muscle Tone Issues</h3>
               <p className="text-gray-600">
@@ -140,7 +135,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education</h3>
               <p className="text-gray-600">
@@ -311,7 +306,7 @@ export default function Home() {
                 
                 <div className="space-y-4">
                   <div className="flex items-start">
-                    <span className="mr-3 mt-1" style={{ color: '#9DA774' }}>🎓</span>
+                    <span className="mr-3 mt-1" style={{ color: '#9c6a48' }}>🎓</span>
                     <div>
                       <h4 className="font-semibold text-gray-800">Education & Credentials</h4>
                       <p className="text-gray-600">Doctor of Physical Therapy, [University Name]<br />
@@ -331,7 +326,7 @@ export default function Home() {
                   </div>
                   
                   <div className="flex items-start">
-                    <span className="mr-3 mt-1" style={{ color: '#9DA774' }}>💚</span>
+                    <span className="mr-3 mt-1" style={{ color: '#9c6a48' }}>💚</span>
                     <div>
                       <h4 className="font-semibold text-gray-800">My Approach</h4>
                       <p className="text-gray-600">
