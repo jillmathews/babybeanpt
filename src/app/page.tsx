@@ -8,14 +8,24 @@ export default function Home() {
       {/* Header */}
       <header className="py-6 px-4 sm:px-6 lg:px-8 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-start">
-          <Image
-            src="/babybeanptfull.png"
-            alt="Baby Bean Physical Therapy"
-            width={175}
-            height={45}
-            className="h-auto"
-            priority
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              src="/logo.png"
+              alt="Baby Bean PT Logo"
+              width={60}
+              height={60}
+              className="h-auto mb-1"
+              priority
+            />
+            <div className="flex flex-col items-center -mt-1">
+              <h1 className="text-2xl font-bold text-center leading-none uppercase tracking-wider font-nunito" style={{ color: '#9DA774' }}>
+                BABY BEAN
+              </h1>
+              <p className="text-xs font-bold text-center leading-none uppercase tracking-wide font-nunito" style={{ color: '#9c6a48' }}>
+                PHYSICAL THERAPY
+              </p>
+            </div>
+          </div>
         </div>
       </header>
 
