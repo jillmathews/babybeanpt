@@ -39,10 +39,22 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth' })}
+                className="border-2 text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:text-white"
+                style={{ 
+                  borderColor: '#9DA774', 
+                  color: '#9DA774'
+                }}
+                onMouseEnter={(e) => (e.target as HTMLElement).style.backgroundColor = '#9DA774'}
+                onMouseLeave={(e) => (e.target as HTMLElement).style.backgroundColor = 'transparent'}
+              >
+                View Our Services
+              </button>
+              <button 
+                onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeaRtY4x4XFd3P8MNPOdhgcDpSmFj_uaHUX_HXNekGImOYy4g/viewform?usp=sharing&ouid=112895189164803599407', '_blank')}
                 className="text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors shadow-lg hover:opacity-90"
                 style={{ backgroundColor: '#9DA774' }}
               >
-                View Our Services
+                Complete Intake Form
               </button>
               <button 
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
