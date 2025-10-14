@@ -35,7 +35,7 @@ export default function Home() {
           <div className="mb-8">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight" style={{color: '#9DA774'}}>
               Pediatric Physical Therapy
-              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Infant Development</span>
+              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Evidence-based physical therapy specializing in babies 0 to 6 months reach their developmental milestones 
@@ -140,24 +140,6 @@ export default function Home() {
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
-              <div className="text-4xl mb-4">🤲</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Muscle Tone Issues</h3>
-              <p className="text-gray-600">
-                Therapeutic activities to help babies with low or high muscle tone develop 
-                appropriate strength and movement patterns.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
-              <div className="text-4xl mb-4">🏠</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
-              <p className="text-gray-600">
-                Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
-                with family education and environmental modifications.
-              </p>
-            </div>
-            
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education</h3>
               <p className="text-gray-600">
@@ -172,6 +154,15 @@ export default function Home() {
               <p className="text-gray-600">
                 Remote therapy sessions and consultations via video call, perfect for follow-ups, 
                 assessment reviews, and ongoing support from the comfort of your home.
+              </p>
+            </div>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
+              <div className="text-4xl mb-4">🏠</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
+              <p className="text-gray-600">
+                Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
+                with family education and environmental modifications.
               </p>
             </div>
           </div>
