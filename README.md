@@ -8,7 +8,7 @@ Framework: NextJS with Typescript and TailwindCSS
 
         We can use the cd and ls command to naviagte
 
-            ```
+            ```bash
             cd filename (moves forward into folders)
             cd ..       (moves backward out of folders)
             ls          (prints all the files where you are at)
@@ -21,19 +21,19 @@ Framework: NextJS with Typescript and TailwindCSS
 
         2) Navigate to the project folder (see commands above)
 
-            ```
+            ```bash
             cd babybeanpt
             ```
 
         3) Once in the folder, run the development server
 
-            ```
+            ```bash
             npm run dev
             ```
 
         4) look at the terminal and use cmd+click on the URL that looks like 
 
-            ```
+            ```bash
             http://localhost:3000
             ```
 
@@ -45,7 +45,7 @@ Framework: NextJS with Typescript and TailwindCSS
 
         1) Ensure you are still in the project folder by using this command
 
-            ```
+            ```bash
             ls 
             ```
 
@@ -53,7 +53,7 @@ Framework: NextJS with Typescript and TailwindCSS
 
         2) Make sure the code has no bugs by running this command
 
-            ```
+            ```bash
             npm run build
             ```
 
@@ -61,7 +61,7 @@ Framework: NextJS with Typescript and TailwindCSS
 
         3) Run these git commands, it is important to do it in this order!
 
-            ```
+            ```bash
             git pull
             git add *
             git commit -m "Your Message Here!"
