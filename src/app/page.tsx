@@ -34,11 +34,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight" style={{color: '#9DA774'}}>
-              Infant Physical Therapy
-              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
+              Pediatric Physical Therapy
+              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Infant Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Specialized, evidence-based physical therapy helping babies reach their developmental milestones 
+              Evidence-based physical therapy specializing in babies 0 to 6 months reach their developmental milestones 
               with gentle, nurturing care that puts your family&apos;s comfort first.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -106,7 +106,7 @@ export default function Home() {
               Specialized Care for Your Baby&apos;s Development
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide gentle, evidence-based physical therapy to help babies overcome challenges 
+              We provide expert, evidence-based physical therapy to help babies overcome challenges 
               and reach their full potential during these critical early months.
             </p>
           </div>
@@ -165,6 +165,15 @@ export default function Home() {
                 positioning, and activities to support development at home.
               </p>
             </div>
+            
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
+              <div className="text-4xl mb-4">💻</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Virtual Visits</h3>
+              <p className="text-gray-600">
+                Remote therapy sessions and consultations via video call, perfect for follow-ups, 
+                assessment reviews, and ongoing support from the comfort of your home.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -193,7 +202,7 @@ export default function Home() {
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">90-minute comprehensive evaluation</span>
+                  <span className="text-gray-800">60-minute comprehensive evaluation</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
@@ -242,7 +251,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">45-minute treatment sessions</span>
+                  <span className="text-gray-800">30 and 45-minute treatment sessions</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
@@ -290,10 +299,6 @@ export default function Home() {
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
                   <span className="text-gray-800">Equipment recommendations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Sibling observation included</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
@@ -420,9 +425,9 @@ export default function Home() {
                     <span className="mr-3 mt-1" style={{ color: '#9c6a48' }}>🎓</span>
                     <div>
                       <h4 className="font-semibold text-gray-800">Education & Credentials</h4>
-                      <p className="text-gray-600">Doctor of Physical Therapy, [University Name]<br />
-                      Licensed Physical Therapist, State of [North Carolina and South Carolina]<br />
-                      Certified in Neonatal Physical Therapy</p>
+                      <p className="text-gray-600">BS in Physical Therapy, The Ohio State University<br />
+                      Doctor of Physical Therapy, Arcadia University<br />
+                      Licensed Physical Therapist, State of North Carolina</p>
                     </div>
                   </div>
                   
@@ -430,9 +435,9 @@ export default function Home() {
                     <span className="mr-3 mt-1" style={{ color: '#9DA774' }}>👶</span>
                     <div>
                       <h4 className="font-semibold text-gray-800">Specialized Training</h4>
-                      <p className="text-gray-600">Infant Massage Certification<br />
-                      Torticollis and Plagiocephaly Specialist<br />
-                      Early Intervention Program Experience</p>
+                      <p className="text-gray-600">Board Certified Neonatal Therapist<br />
+                      Infant Massage Certification<br />
+                      Torticollis and Plagiocephaly Specialist</p>
                     </div>
                   </div>
                   
