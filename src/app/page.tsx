@@ -1,10 +1,81 @@
 "use client";
 
 import Image from "next/image";
+import Script from "next/script";
 
 export default function Home() {
+
+  // metadata used for Google SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "HealthcareService",
+    "name": "Baby Bean Physical Therapy",
+    "image": "https://babybeanpt.com/ma.jpg",
+    "description": "Expert pediatric physical therapy for infants and babies specializing in torticollis, plagiocephaly, developmental delays, and motor milestone support.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Fort Mill",
+      "addressLocality": "Fort Mill",
+      "addressRegion": "SC",
+      "addressCountry": "US"
+    },
+    "telephone": "(803) 984-8492",
+    "email": "jill@babybeanpt.com",
+    "url": "https://babybeanpt.com",
+    "logo": "https://babybeanpt.com/logo.png",
+    "priceRange": "$$",
+    "openingHours": "By Appointment",
+    "founder": {
+      "@type": "Person",
+      "name": "Jill Mathews",
+      "jobTitle": "Licensed Pediatric Physical Therapist",
+      "alumniOf": "Doctor of Physical Therapy Program"
+    },
+    "areaServed": [
+      {
+        "@type": "Town",
+        "name": "Fort Mill",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "South Carolina"
+        }
+      },
+      {
+        "@type": "City",
+        "name": "Tega Cay",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "South Carolina"
+        }
+      },
+      {
+        "@type": "City", 
+        "name": "Charlotte",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "North Carolina"
+        }
+      }
+    ],
+    "serviceType": [
+      "Pediatric Physical Therapy",
+      "Infant Physical Therapy", 
+      "Torticollis Treatment",
+      "Plagiocephaly Therapy",
+      "Developmental Delay Support",
+      "Motor Milestone Training",
+      "Home Visit Therapy"
+    ],
+    "medicalSpecialty": "Physical Therapy"
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <Script
+        id="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       {/* Header */}
       <header className="py-6 px-4 sm:px-6 lg:px-8 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-start">
