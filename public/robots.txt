@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://babybeanpt.com/sitemap.xml
+Sitemap: https://www.beanpt.com/sitemap.xml
 
 # Block crawling of any admin or private areas (add as needed)
 Disallow: /admin/
