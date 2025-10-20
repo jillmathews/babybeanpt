@@ -10,7 +10,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "HealthcareService",
     "name": "Baby Bean Physical Therapy",
-    "image": "https://babybeanpt.com/ma.jpg",
+    "image": "https://www.babybeanpt.com/ma.jpg",
     "description": "Expert pediatric physical therapy for infants and babies specializing in torticollis, plagiocephaly, developmental delays, and motor milestone support.",
     "address": {
       "@type": "PostalAddress",
@@ -21,8 +21,8 @@ export default function Home() {
     },
     "telephone": "(803) 984-8492",
     "email": "jill@babybeanpt.com",
-    "url": "https://babybeanpt.com",
-    "logo": "https://babybeanpt.com/logo.png",
+    "url": "https://www.babybeanpt.com",
+    "logo": "https://www.babybeanpt.com/logo.png",
     "priceRange": "$$",
     "openingHours": "By Appointment",
     "founder": {
