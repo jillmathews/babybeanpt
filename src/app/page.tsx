@@ -110,7 +110,7 @@ export default function Home() {
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
               Evidence-based physical therapy specializing in babies 0 to 6 months reach their developmental milestones 
-              with gentle, nurturing care that puts your family&apos;s comfort first.
+              with gentle, nurturing care in a family-centered, comforting environment.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -541,8 +541,7 @@ export default function Home() {
             <div className="md:col-span-2">
               <h3 className="text-2xl font-bold mb-6">BabyBeanPT</h3>
               <p className="text-gray-300 mb-6 max-w-md">
-                Providing gentle, specialized physical therapy for babies in a nurturing, 
-                family-centered environment.
+                Helping tiny beans sprout big milestones
               </p>
               
               <div className="space-y-3">
