@@ -56,14 +56,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://babybeanpt.com'),
+  metadataBase: new URL('https://www.babybeanpt.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Baby Bean Physical Therapy | Expert Infant PT Care",
     description: "Specialized physical therapy for babies. Expert treatment for torticollis, plagiocephaly, and developmental delays in Fort Mill, SC.",
-    url: 'https://babybeanpt.com',
+    url: 'https://www.babybeanpt.com',
     siteName: 'Baby Bean Physical Therapy',
     locale: 'en_US',
     type: 'website',
