@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://www.babybeanpt.com'),
   alternates: {
-    canonical: '/',
+    canonical: 'https://www.babybeanpt.com',
   },
   openGraph: {
     title: "Baby Bean Physical Therapy | Expert Infant PT Care",
