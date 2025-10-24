@@ -76,6 +76,11 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
+      {/* Coming Soon Banner */}
+      <div className="w-full text-center py-4 text-white font-bold text-3xl sm:text-4xl" style={{ backgroundColor: '#9DA774' }}>
+        COMING SOON
+      </div>
+      
       {/* Header */}
       <header className="py-6 px-4 sm:px-6 lg:px-8 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-start">
@@ -109,8 +114,7 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Evidence-based physical therapy specializing in babies 0 to 6 months reach their developmental milestones 
-              with gentle, nurturing care in a family-centered, comforting environment.
+              We specialize in evidence-based physical therapy and general wellness for babies 0–6 months with a warm, family-centered approach  that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -159,12 +163,13 @@ export default function Home() {
             </div>
           </div>
           <div className="relative w-full h-64 sm:h-80 lg:h-96 rounded-2xl overflow-hidden shadow-2xl mx-auto max-w-4xl">
-            <div className="absolute inset-0 flex items-center justify-center" style={{ background: `linear-gradient(45deg, #F5F0E5, #9DA774)` }}>
-              <div className="text-center text-gray-700">
-                <div className="text-6xl mb-4">👶</div>
-                <p className="text-lg font-medium">Gentle hands, expert care</p>
-              </div>
-            </div>
+            <Image
+              src="/baby.jpg"
+              alt="Baby Bean Physical Therapy"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -184,11 +189,11 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
-              <div className="text-4xl mb-4">🤱</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Torticollis Treatment</h3>
+              <div className="text-4xl mb-4">✨</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness</h3>
               <p className="text-gray-600">
-                Gentle stretching and positioning techniques to help babies with neck muscle tightness 
-                achieve better head and neck mobility.
+                Comprehensive wellness visits focused on promoting optimal development, 
+                preventing issues, and supporting healthy growth patterns from birth.
               </p>
             </div>
             
