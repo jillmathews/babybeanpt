@@ -20,10 +20,10 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   title: {
-    default: "Baby Bean Physical Therapy | Infant PT in Fort Mill, SC",
+    default: "Baby Bean Physical Therapy | Pediatric Physical Therapy in the Charlotte Metro",
     template: "%s | Baby Bean Physical Therapy"
   },
-  description: "Expert pediatric physical therapy for infants and babies in Fort Mill, SC and Charlotte Metro Area. Specializing in torticollis, plagiocephaly, developmental delays, and motor milestone support. Licensed therapist Jill Mathews provides gentle, evidence-based care.",
+  description: "Expert pediatric physical therapy for infants and babies specializing in torticollis, plagiocephaly, developmental delays, and motor milestone support.",
   icons:{
     icon: '/favicon.ico',
   },
