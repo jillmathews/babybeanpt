@@ -222,8 +222,7 @@ export default function Home() {
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education & Empowerment</h3>
               <p className="text-gray-600">
-                One-on-one coaching via virtual or hands-on instructionfor parents and caregivers on safe handling, 
-                positioning, and activities to support development at home.
+                One-on-one coaching via virtual or hands-on instruction for parents and caregivers on safe handling, 
               </p>
             </div>
             
