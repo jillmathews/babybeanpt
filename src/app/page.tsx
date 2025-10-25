@@ -94,11 +94,15 @@ export default function Home() {
               priority
             />
             <div className="flex flex-col items-center -mt-1">
-              <h1 className="text-2xl font-bold text-center leading-none uppercase tracking-wider font-nunito" style={{ color: '#9DA774' }}>
-                BABY BEAN
+              <h1 className="text-2xl font-bold text-center leading-none tracking-wider font-nunito" style={{ color: '#9DA774' }}>
+                BabyBean
               </h1>
-              <p className="text-xs font-bold text-center leading-none uppercase tracking-wide font-nunito" style={{ color: '#9c6a48' }}>
-                PHYSICAL THERAPY
+              <p className="font-bold text-center leading-none uppercase tracking-wide font-nunito" style={{ 
+                color: '#9c6a48',
+                fontSize: '8px',
+                marginTop: '4px'
+              }}>
+                Physical Therapy
               </p>
             </div>
           </div>
@@ -114,7 +118,7 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Sprouting Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Welcome to BabyBeanPT, we provide a boutique, concierge experience for families seeking the highest level of expertise in early infant development. We specialize in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
+              Welcome to BabyBeanPT, a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -237,7 +241,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
               <p className="text-gray-600">
                 Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
-                with family education and environmental modifications.
+                with  and environmental modifications.
               </p>
             </div>
           </div>
