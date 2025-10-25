@@ -179,11 +179,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Specialized Care for Your Baby&apos;s Development
+              The Concierge Experience
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              BabyBeanPT provides expert, evidence-based physical therapy to help babies overcome challenges 
-              and reach their full potential during these critical early months.
+              From personalized scheduling to in-home or virtual private visits, our concierge model ensures your family receives seamless, uninterrupted care in a setting that feels most comfortable to you. At BabyBeanPT, we are dedicated to helping your baby grow, move and thrive-from the very beginning.
             </p>
           </div>
           
