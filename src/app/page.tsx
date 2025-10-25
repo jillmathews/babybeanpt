@@ -111,10 +111,10 @@ export default function Home() {
           <div className="mb-8">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 mb-6 leading-tight" style={{color: '#9DA774'}}>
               Pediatric Physical Therapy
-              <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
+              <span className="block" style={{  color: '#9c6a48'}}>Sprouting Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              We specialize in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach  that promotes growth, comfort and confidence for both baby and family.
+              Welcome to BabyBeanPT, we provide a boutique, concierge experience for families seeking the highest level of expertise in early infant development. We specialize in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -182,7 +182,7 @@ export default function Home() {
               Specialized Care for Your Baby&apos;s Development
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide expert, evidence-based physical therapy to help babies overcome challenges 
+              BabyBeanPT provides expert, evidence-based physical therapy to help babies overcome challenges 
               and reach their full potential during these critical early months.
             </p>
           </div>
@@ -190,10 +190,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">✨</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness & Preventive Care</h3>
               <p className="text-gray-600">
-                Comprehensive wellness sessions focused on promoting optimal development, 
-                preventing motor delays, and supporting healthy growth patterns from birth.
+                Comprehensive wellness screenings and guidance to promote optimal development, 
+                prevent motor delays, and support healthy growth from day one.
               </p>
             </div>
             
@@ -208,18 +208,18 @@ export default function Home() {
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">🌱</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Developmental Delays</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Developmental Milestones Support</h3>
               <p className="text-gray-600">
-                Early intervention strategies to support babies who may be behind in reaching 
-                motor milestones like head control, rolling, and sitting. 
+                Customized care to help your baby reach early motor milestones like head control, rolling and sitting confidently and naturally. 
+        
               </p>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education & Empowerment</h3>
               <p className="text-gray-600">
-                Comprehensive training for parents and caregivers on safe handling, 
+                One-on-one coaching via virtual or hands-on instructionfor parents and caregivers on safe handling, 
                 positioning, and activities to support development at home.
               </p>
             </div>
@@ -409,9 +409,9 @@ export default function Home() {
               </ul>
               
               <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Boutique Service Rates</p>
+                <p className="text-3xl font-bold text-gray-800 mb-4">Flexible Rates</p>
                 <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Reserve Elite Session
+                  Book Virtual Visit
                 </button>
               </div>
             </div>
@@ -424,11 +424,11 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Begin Your Exclusive Journey
+              Get Started Today
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Complete our private consultation form to initiate your child&apos;s bespoke developmental journey. 
-              This confidential assessment allows us to curate an exceptional experience tailored to your family&apos;s distinguished needs.
+              Complete our intake form to begin your baby&apos;s journey toward healthy development. 
+              This helps us understand your child&apos;s unique needs and prepare for your first consultation.
             </p>
             <button
               onClick={() => {
@@ -449,7 +449,7 @@ export default function Home() {
               className="text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg hover:opacity-90 hover:shadow-xl"
               style={{ backgroundColor: '#9DA774' }}
             >
-              Show Private Consultation Form
+              Show Intake Form
             </button>
           </div>
           
@@ -514,7 +514,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Meet Your Distinguished Specialist
+              Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
                   Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
