@@ -409,9 +409,9 @@ export default function Home() {
               </ul>
               
               <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Flexible Rates</p>
+                <p className="text-3xl font-bold text-gray-800 mb-4">Boutique Service Rates</p>
                 <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Book Virtual Visit
+                  Reserve Elite Session
                 </button>
               </div>
             </div>
@@ -424,11 +424,11 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Get Started Today
+              Begin Your Exclusive Journey
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-              Complete our intake form to begin your baby&apos;s journey toward healthy development. 
-              This helps us understand your child&apos;s unique needs and prepare for your first consultation.
+              Complete our private consultation form to initiate your child&apos;s bespoke developmental journey. 
+              This confidential assessment allows us to curate an exceptional experience tailored to your family&apos;s distinguished needs.
             </p>
             <button
               onClick={() => {
@@ -449,7 +449,7 @@ export default function Home() {
               className="text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 shadow-lg hover:opacity-90 hover:shadow-xl"
               style={{ backgroundColor: '#9DA774' }}
             >
-              Show Intake Form
+              Show Private Consultation Form
             </button>
           </div>
           
@@ -514,7 +514,7 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Meet Your Baby&apos;s Physical Therapist
+              Meet Your Distinguished Specialist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
                   Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
