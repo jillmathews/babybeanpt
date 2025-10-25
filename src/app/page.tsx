@@ -192,7 +192,7 @@ export default function Home() {
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness</h3>
               <p className="text-gray-600">
-                Comprehensive wellness sessionsfocused on promoting optimal development, 
+                Comprehensive wellness sessions focused on promoting optimal development, 
                 preventing motor delays, and supporting healthy growth patterns from birth.
               </p>
             </div>
@@ -517,7 +517,7 @@ export default function Home() {
               Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At Baby Bean PT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
+                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
                 </p>
                 
                 <div className="space-y-4">
