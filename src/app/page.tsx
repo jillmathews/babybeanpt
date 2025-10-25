@@ -516,7 +516,8 @@ export default function Home() {
               Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
+                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development and a former NICU mom, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I believe every baby deserves a gentle start and every parent deserves peace of mind. My care is guided in science and delivered with compassion- tailored to your baby&apos;s specific needs and your family&apos;s lifestyle. Whether you are supporting your baby&apos;s motor development, preventing concerns before they arise, or simply seeking reassurance and expert guidance, I provide a hollistic, wellness-focused experience that goes beyond traditional therapy.
+                  
                 </p>
                 
                 <div className="space-y-4">
