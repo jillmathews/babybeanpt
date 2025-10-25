@@ -114,7 +114,7 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Nurturing Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              We specialize in evidence-based physical therapy and general wellness for babies 0–6 months with a warm, family-centered approach  that promotes growth, comfort and confidence for both baby and family.
+              We specialize in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach  that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -517,9 +517,7 @@ export default function Home() {
               Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I&apos;m Jill Mathews, a licensed pediatric physical therapist with a specialized focus on 
-                  infant development. With over 20 years of experience, I&apos;m passionate about helping babies 
-                  reach their developmental milestones through gentle, evidence-based therapy.
+                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At Baby Bean PT, I focus on early wellness and developmental milestones, providing family-centered care that nurtures confidence and connection from the very beginning.
                 </p>
                 
                 <div className="space-y-4">
@@ -539,19 +537,8 @@ export default function Home() {
                       <h4 className="font-semibold text-gray-800">Specialized Training</h4>
                       <p className="text-gray-600">Board Certified Neonatal Therapist<br />
                       Infant Massage Certification<br />
-                      Torticollis and Plagiocephaly Specialist</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <span className="mr-3 mt-1" style={{ color: '#9c6a48' }}>💚</span>
-                    <div>
-                      <h4 className="font-semibold text-gray-800">My Approach</h4>
-                      <p className="text-gray-600">
-                        I believe every baby deserves the gentlest possible care. My approach combines 
-                        evidence-based techniques with a deep understanding of infant development, 
-                        always prioritizing your baby&apos;s comfort and your family&apos;s peace of mind.
-                      </p>
+                      Trained in the TIMP, Test for infant Motor Performance<br />
+                      Certified Small Baby Specialist</p>
                     </div>
                   </div>
                 </div>
@@ -567,6 +554,11 @@ export default function Home() {
                   className="object-cover"
                   priority
                 />
+              </div>
+              <div className="text-center mt-4">
+                <p className="text-lg font-semibold text-gray-700">
+                  Dr. Jill Mathews, PT, DPT, CNT, NTMTC, C-ELBW
+                </p>
               </div>
             </div>
           </div>
