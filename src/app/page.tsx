@@ -192,8 +192,8 @@ export default function Home() {
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness</h3>
               <p className="text-gray-600">
-                Comprehensive wellness visits focused on promoting optimal development, 
-                preventing issues, and supporting healthy growth patterns from birth.
+                Comprehensive wellness sessionsfocused on promoting optimal development, 
+                preventing motor delays, and supporting healthy growth patterns from birth.
               </p>
             </div>
             
@@ -211,7 +211,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Developmental Delays</h3>
               <p className="text-gray-600">
                 Early intervention strategies to support babies who may be behind in reaching 
-                motor milestones like rolling, sitting, or crawling.
+                motor milestones like head control, rolling, and sitting. 
               </p>
             </div>
             
@@ -257,7 +257,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Initial Assessment Package */}
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
               <div className="text-center mb-6">
@@ -377,6 +377,41 @@ export default function Home() {
                 <p className="text-3xl font-bold text-gray-800 mb-4">Premium Pricing</p>
                 <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
                   Request Home Visit
+                </button>
+              </div>
+            </div>
+
+            {/* Virtual Visits Package */}
+            <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
+              <div className="text-center mb-6">
+                <div className="text-4xl mb-4">💻</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-2">Virtual Visits</h3>
+                <p className="text-gray-600">Remote consultations from home comfort</p>
+              </div>
+              
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Video call consultations</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Progress check-ins</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Exercise demonstrations</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Parent education sessions</span>
+                </li>
+              </ul>
+              
+              <div className="text-center">
+                <p className="text-3xl font-bold text-gray-800 mb-4">Flexible Rates</p>
+                <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
+                  Book Virtual Visit
                 </button>
               </div>
             </div>
