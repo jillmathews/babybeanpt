@@ -232,7 +232,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Virtual Visits</h3>
               <p className="text-gray-600">
                 Remote therapy sessions and consultations via video call, perfect for follow-ups, 
-                assessment reviews, general baby wellness inquiriesand ongoing support from the comfort of your home.
+                assessment reviews, general baby wellness inquiries and ongoing support from the comfort of your home.
               </p>
             </div>
             
@@ -492,7 +492,7 @@ export default function Home() {
               Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I&apos;m Jill Mathews, a licensed Doctor of Physical Therapy. With over 20 years of experience in infant development and a former NICU mom, I specialize in supporting babies from birth to 6 months as they grow, move, and thrive. At BabyBeanPT, I believe every baby deserves a gentle start and every parent deserves peace of mind. My care is guided in science and delivered with compassion- tailored to your baby&apos;s specific needs and your family&apos;s lifestyle. Whether you are supporting your baby&apos;s motor development, preventing concerns before they arise, or simply seeking reassurance and expert guidance, I provide a hollistic, wellness-focused experience that goes beyond traditional therapy.
+                  Hi! I&apos;m Jill Mathews a licensed Doctor of Physical Therapy and former NICU mom with over 20 years experience in infant development. I specialize in supporting babies from birth to 6 months as they grow, move and thrive.
                   
                 </p>
                 
