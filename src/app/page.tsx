@@ -118,7 +118,7 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Sprouting Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Welcome to BabyBeanPT, a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
+              Welcome to BabyBeanPT! We are a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -222,7 +222,8 @@ export default function Home() {
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education & Empowerment</h3>
               <p className="text-gray-600">
-                One-on-one coaching via virtual or hands-on instruction for parents and caregivers on safe handling, 
+                One-on-one coaching via virtual or hands-on instruction for parents and caregivers on safe handling, positioning, activities and toy selection to support development at home.
+
               </p>
             </div>
             
@@ -231,7 +232,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Virtual Visits</h3>
               <p className="text-gray-600">
                 Remote therapy sessions and consultations via video call, perfect for follow-ups, 
-                assessment reviews, and ongoing support from the comfort of your home.
+                assessment reviews, general baby wellness inquiriesand ongoing support from the comfort of your home.
               </p>
             </div>
             
@@ -240,7 +241,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
               <p className="text-gray-600">
                 Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
-                with  and environmental modifications.
+                tailored to your family&apos;s schedule and needs.
               </p>
             </div>
           </div>
@@ -259,7 +260,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Initial Assessment Package */}
             <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
               <div className="text-center mb-6">
@@ -279,7 +280,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Personalized treatment plan</span>
+                  <span className="text-gray-800">Personalized treatment plan and assist with package selection</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
@@ -292,58 +293,8 @@ export default function Home() {
               </ul>
               
               <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Contact for Pricing</p>
                 <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Schedule Assessment
-                </button>
-              </div>
-            </div>
-
-            {/* Treatment Package */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-2 relative" style={{ borderColor: '#9DA774' }}>
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="text-white px-4 py-2 rounded-full text-sm font-semibold" style={{ backgroundColor: '#9DA774' }}>
-                  Most Popular
-                </span>
-              </div>
-              
-              <div className="text-center mb-6">
-                <div className="text-4xl mb-4">💝</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Treatment Package</h3>
-                <p className="text-gray-600">Ongoing therapy sessions for optimal progress</p>
-              </div>
-              
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">4 or 8 session packages available</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">30 and 45-minute treatment sessions</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Progress tracking and updates</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Modified home exercises</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Parent education and support</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Flexible scheduling</span>
-                </li>
-              </ul>
-              
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Package Rates Available</p>
-                <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Get Started
+                  Schedule Assessment - click on intake form below
                 </button>
               </div>
             </div>
@@ -367,19 +318,32 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Equipment recommendations</span>
+                  <span className="text-gray-800">Developmentally appropriate toy and equipment recommendations</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Parent education and support</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Home exercise program</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Infant massage</span>
                 </li>
                 <li className="flex items-center">
                   <span className="text-green-500 mr-3">✓</span>
                   <span className="text-gray-800">Travel within 20 miles</span>
                 </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Single sessions and packages available in 30 and 45 minute increments</span>
+                </li>
               </ul>
               
               <div className="text-center">
                 <p className="text-3xl font-bold text-gray-800 mb-4">Premium Pricing</p>
-                <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Request Home Visit
-                </button>
               </div>
             </div>
 
@@ -388,7 +352,7 @@ export default function Home() {
               <div className="text-center mb-6">
                 <div className="text-4xl mb-4">💻</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2">Virtual Visits</h3>
-                <p className="text-gray-600">Remote consultations from home comfort</p>
+                <p className="text-gray-600">Remote consultation from the comfort of your home</p>
               </div>
               
               <ul className="space-y-3 mb-8">
@@ -408,13 +372,22 @@ export default function Home() {
                   <span className="text-green-500 mr-3">✓</span>
                   <span className="text-gray-800">Parent education sessions</span>
                 </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Infant massage demonstrations</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Developmentally appropriate toy and equipment recommendations</span>
+                </li>
+                <li className="flex items-center">
+                  <span className="text-green-500 mr-3">✓</span>
+                  <span className="text-gray-800">Single sessions and packages available in 15, 30 and 45 minute increments</span>
+                </li>
               </ul>
               
               <div className="text-center">
                 <p className="text-3xl font-bold text-gray-800 mb-4">Flexible Rates</p>
-                <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Book Virtual Visit
-                </button>
               </div>
             </div>
           </div>
