@@ -118,7 +118,7 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Sprouting Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Welcome to BabyBean PT! We are a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
+              Welcome to BabyBean PT! We are a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBean PT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
@@ -186,7 +186,7 @@ export default function Home() {
               The Concierge Experience
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From personalized scheduling to in-home or virtual private visits, our concierge model ensures your family receives seamless, uninterrupted care in a setting that feels most comfortable to you. At BabyBeanPT, we are dedicated to helping your baby grow, move and thrive-from the very beginning.
+              From personalized scheduling to in-home or virtual private visits, our concierge model ensures your family receives seamless, uninterrupted care in a setting that feels most comfortable to you. At BabyBean PT, we are dedicated to helping your baby grow, move and thrive-from the very beginning.
             </p>
           </div>
           
@@ -346,7 +346,7 @@ export default function Home() {
               Meet Your Baby&apos;s Physical Therapist
             </h2>              <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Hi! I&apos;m Jill Mathews a licensed Doctor of Physical Therapy and former NICU mom with over 20 years experience in infant development. I specialize in supporting babies from birth to 6 months as they grow, move and thrive. At BabyBeanPT, I believe every baby deserves a gentle start and every parent deserves peace of mind. My care is guided in science and delivered with compassion- tailored to your baby&apos;s specific needs and your family&apos;s lifestyle. Whether you are supporting your baby&apos;s motor development, preventing concerns before they arise, or simply seeking reassurance and expert guidance, I provide a holistic, wellness-focused experience that goes beyond traditional therapy.
+                  Hi! I&apos;m Jill Mathews a licensed Doctor of Physical Therapy and former NICU mom with over 20 years experience in infant development. I specialize in supporting babies from birth to 6 months as they grow, move and thrive. At BabyBean PT, I believe every baby deserves a gentle start and every parent deserves peace of mind. My care is guided in science and delivered with compassion- tailored to your baby&apos;s specific needs and your family&apos;s lifestyle. Whether you are supporting your baby&apos;s motor development, preventing concerns before they arise, or simply seeking reassurance and expert guidance, I provide a holistic, wellness-focused experience that goes beyond traditional therapy.
                   
                 </p>
                 
@@ -421,7 +421,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8">
             {/* Contact Info */}
             <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold mb-6">BabyBeanPT</h3>
+              <h3 className="text-2xl font-bold mb-6">BabyBean PT</h3>
               <p className="text-gray-300 mb-6 max-w-md">
                 Helping tiny beans sprout big milestones
               </p>
@@ -484,7 +484,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 mt-12 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 BabyBeanPT LLC. | Licensed Physical Therapy Practice
+              © 2025 BabyBean PT LLC. | Licensed Physical Therapy Practice
             </p>
           </div>
         </div>
