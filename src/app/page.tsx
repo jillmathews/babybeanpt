@@ -118,11 +118,11 @@ export default function Home() {
               <span className="block" style={{  color: '#9c6a48'}}>Sprouting Healthy Development</span>
             </h2>
             <p className="text-xl sm:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Welcome to BabyBeanPT! We are a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
+              Welcome to BabyBean PT! We are a boutique, concierge experience for families seeking the highest level of expertise in early infant development. BabyBeanPT specializes in evidence-based physical therapy and general wellness for babies birth to 6 months with a warm, family-centered approach that promotes growth, comfort and confidence for both baby and family.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
-                onClick={() => document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
                 className="border-2 text-lg font-semibold px-8 py-4 rounded-full transition-all duration-300 hover:text-white"
                 style={{ 
                   borderColor: '#9DA774', 
@@ -243,152 +243,6 @@ export default function Home() {
                 Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
                 tailored to your family&apos;s schedule and needs.
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Packages Section */}
-      <section id="packages" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-6">
-              Service Packages
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the care package that best fits your baby&apos;s needs and your family&apos;s schedule.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Initial Assessment Package */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
-              <div className="text-center mb-6">
-                <div className="text-4xl mb-4">🔍</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Initial Assessment</h3>
-                <p className="text-gray-600">Comprehensive evaluation and care plan</p>
-              </div>
-              
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">60-minute comprehensive evaluation</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Detailed development assessment</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Personalized treatment plan and assist with package selection</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Home exercise program</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Family education session</span>
-                </li>
-              </ul>
-              
-              <div className="text-center">
-                <button className="w-full text-white py-3 px-6 rounded-full font-semibold transition-colors hover:opacity-90" style={{ backgroundColor: '#9DA774' }}>
-                  Schedule Assessment - click on intake form below
-                </button>
-              </div>
-            </div>
-
-            {/* Home Visit Package */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
-              <div className="text-center mb-6">
-                <div className="text-4xl mb-4">🏠</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Home Visits</h3>
-                <p className="text-gray-600">Convenient care in your comfortable space</p>
-              </div>
-              
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">In-home therapy sessions</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Environmental assessment</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Developmentally appropriate toy and equipment recommendations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Parent education and support</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Home exercise program</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Infant massage</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Travel within 20 miles</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Single sessions and packages available in 30 and 45 minute increments</span>
-                </li>
-              </ul>
-              
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Premium Pricing</p>
-              </div>
-            </div>
-
-            {/* Virtual Visits Package */}
-            <div className="bg-white p-8 rounded-2xl shadow-lg border-2 border-gray-100">
-              <div className="text-center mb-6">
-                <div className="text-4xl mb-4">💻</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">Virtual Visits</h3>
-                <p className="text-gray-600">Remote consultation from the comfort of your home</p>
-              </div>
-              
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Video call consultations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Progress check-ins</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Exercise demonstrations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Parent education sessions</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Infant massage demonstrations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Developmentally appropriate toy and equipment recommendations</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="text-green-500 mr-3">✓</span>
-                  <span className="text-gray-800">Single sessions and packages available in 15, 30 and 45 minute increments</span>
-                </li>
-              </ul>
-              
-              <div className="text-center">
-                <p className="text-3xl font-bold text-gray-800 mb-4">Flexible Rates</p>
-              </div>
             </div>
           </div>
         </div>
@@ -549,13 +403,13 @@ export default function Home() {
           </h2>
           <div className="prose prose-lg max-w-none text-gray-600 space-y-6">
             <p>
-              I founded BabyBean Physical Therapy because my own journey as a mother and therapist began in the NICU. I had just started my career as a pediatric physical therapist at a large medical center when my son John was born eight weeks early on March 25, 2002. The small NICU where John was born did not have therapy services, and after five long weeks, we were discharged without proper follow-up. John struggled with feeding and had mild motor delays, and I found myself desperately searching for guidance. I immersed myself in research, reading every article and taking every continuing education course I could find to help him. Through that experience, my career path shifted—I knew I belonged in the NICU, helping families navigate those same challenges.
+              I founded BabyBean PT because my own journey as a mother and therapist began in the NICU. I had just started my career as a pediatric physical therapist at a large medical center when my son John was born eight weeks early on March 25, 2002. The small NICU where John was born did not have therapy services, and after five long weeks, we were discharged without proper follow-up. John struggled with feeding and had mild motor delays, and I found myself desperately searching for guidance. I immersed myself in research, reading every article and taking every continuing education course I could find to help him. Through that experience, my career path shifted—I knew I belonged in the NICU, helping families navigate those same challenges.
             </p>
             <p>
               For the past 23 years, I have dedicated my career to supporting families in the NICU—empowering and educating them on early infant care, and advocating for early intervention and outpatient follow-up for NICU graduates. Over the years, I have seen how difficult it can be for families to find a therapist experienced with infants after leaving the hospital. Wait times are often long, and families may miss the crucial developmental window of those first few months.
             </p>
             <p>
-              BabyBean Physical Therapy was created to bridge that gap—providing expert, compassionate care in the comfort of a family&apos;s home, at a time that works for them. In addition to developmental support, Baby Bean offers wellness visits designed to empower families with knowledge, confidence, and peace of mind to ensure their little one is thriving. Whether you&apos;re concerned about your baby&apos;s motor development or simply want reassurance that your baby bean is on track, Baby Bean PT is here to help your family from the very beginning.
+              BabyBean PT was created to bridge that gap—providing expert, compassionate care in the comfort of a family&apos;s home or though convenient virtual visits, at a time that works for them. In addition to developmental support, BabyBean PT offers wellness visits designed to empower families with knowledge, confidence, and peace of mind to ensure their little one is thriving. Whether you&apos;re concerned about your baby&apos;s motor development or simply want reassurance that your baby bean is on track, BabyBean PT is here to help your family from the very beginning.
             </p>
           </div>
         </div>
@@ -600,16 +454,6 @@ export default function Home() {
                     onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#d1d5db'}
                   >
                     Our Services
-                  </button>
-                </li>
-                <li>
-                  <button 
-                    onClick={() => document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="text-gray-300 transition-colors"
-                    onMouseEnter={(e) => (e.target as HTMLElement).style.color = '#9DA774'}
-                    onMouseLeave={(e) => (e.target as HTMLElement).style.color = '#d1d5db'}
-                  >
-                    Service Packages
                   </button>
                 </li>
                 <li>
