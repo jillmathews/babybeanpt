@@ -399,17 +399,17 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
-            Why BabyBean PT was started
+            🌱 My Why Behind BabyBean PT
           </h2>
           <div className="prose prose-lg max-w-none text-gray-600 space-y-6">
             <p>
-              I founded BabyBean PT because my own journey as a mother and therapist began in the NICU. I had just started my career as a pediatric physical therapist at a large medical center when my son John was born eight weeks early on March 25, 2002. The small NICU where John was born did not have therapy services, and after five long weeks, we were discharged without proper follow-up. John struggled with feeding and had mild motor delays, and I found myself desperately searching for guidance. I immersed myself in research, reading every article and taking every continuing education course I could find to help him. Through that experience, my career path shifted—I knew I belonged in the NICU, helping families navigate those same challenges.
+              Inspired by my experience as a NICU mom, I founded BabyBean Physical Therapy to give families the expert guidance and reassurance I once needed myself. I had just started my career as a pediatric physical therapist at a large medical center when my son John was born eight weeks early on March 25, 2002. The small NICU where John was born did not have therapy services, and after five long weeks, we were discharged without proper follow-up. John struggled with feeding and had mild motor delays, and I found myself desperately searching for guidance. I immersed myself in research, reading every article and taking every continuing education course I could find to help him. Through that experience, my career path shifted—I knew I belonged in the NICU, helping families navigate those same challenges.
             </p>
             <p>
               For the past 23 years, I have dedicated my career to supporting families in the NICU—empowering and educating them on early infant care, and advocating for early intervention and outpatient follow-up for NICU graduates. Over the years, I have seen how difficult it can be for families to find a therapist experienced with infants after leaving the hospital. Wait times are often long, and families may miss the crucial developmental window of those first few months.
             </p>
             <p>
-              BabyBean PT was created to bridge that gap—providing expert, compassionate care in the comfort of a family&apos;s home or though convenient virtual visits, at a time that works for them. In addition to developmental support, BabyBean PT offers wellness visits designed to empower families with knowledge, confidence, and peace of mind to ensure their little one is thriving. Whether you&apos;re concerned about your baby&apos;s motor development or simply want reassurance that your baby bean is on track, BabyBean PT is here to help your family from the very beginning.
+              BabyBean PT was created to bridge that gap—providing expert, compassionate care in the comfort of a family&apos;s home or though convenient virtual visits, at a time that works for them. In addition to developmental support, BabyBean PT offers virtual wellness visits designed to empower families with knowledge, confidence, and peace of mind to ensure their little one is thriving. Whether you&apos;re concerned about your baby&apos;s motor development or simply want reassurance that your baby bean is on track, BabyBean PT is here to help your family from the very beginning.
             </p>
           </div>
         </div>
@@ -484,7 +484,7 @@ export default function Home() {
           
           <div className="border-t border-gray-700 mt-12 pt-8 text-center">
             <p className="text-gray-400">
-              © 2025 BabyBean PT LLC. | Licensed Physical Therapy Practice
+              © 2025 Baby Bean Physical Therapy LLC. | Licensed Physical Therapy Practice
             </p>
           </div>
         </div>
