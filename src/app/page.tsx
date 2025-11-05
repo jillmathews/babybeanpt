@@ -194,55 +194,67 @@ export default function Home() {
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">✨</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Baby Wellness & Preventive Care</h3>
-              <p className="text-gray-600">
-                Comprehensive wellness screenings and guidance to promote optimal development, 
-                prevent motor delays, and support healthy growth from day one.
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Comprehensive wellness screenings and guidance</li>
+                <li>• Promote optimal development</li>
+                <li>• Prevent motor delays</li>
+                <li>• Support healthy growth from day one</li>
+              </ul>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👶</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Plagiocephaly Support</h3>
-              <p className="text-gray-600">
-                Specialized positioning and movement strategies to address flat head syndrome 
-                and promote healthy skull development.
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Specialized positioning strategies</li>
+                <li>• Movement strategies to address flat head syndrome</li>
+                <li>• Promote healthy skull development</li>
+              </ul>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">🌱</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Developmental Milestones Support</h3>
-              <p className="text-gray-600">
-                Customized care to help your baby reach early motor milestones like head control, rolling and sitting confidently and naturally. 
-        
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Customized care for early motor milestones</li>
+                <li>• Head control development</li>
+                <li>• Rolling and sitting support</li>
+                <li>• Confident and natural progression</li>
+              </ul>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9c6a48' }}>
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Family Education & Empowerment</h3>
-              <p className="text-gray-600">
-                One-on-one coaching via virtual or hands-on instruction for parents and caregivers on safe handling, positioning, activities and toy selection to support development at home.
-
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• One-on-one coaching for parents and caregivers</li>
+                <li>• Virtual or hands-on instruction</li>
+                <li>• Safe handling and positioning techniques</li>
+                <li>• Activity and toy selection guidance</li>
+                <li>• Support development at home</li>
+              </ul>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">💻</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Virtual Visits</h3>
-              <p className="text-gray-600">
-                Remote therapy sessions and consultations via video call, perfect for follow-ups, 
-                assessment reviews, general baby wellness inquiries and ongoing support from the comfort of your home.
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Remote therapy sessions via video call</li>
+                <li>• Follow-ups and assessment reviews</li>
+                <li>• General baby wellness inquiries</li>
+                <li>• Ongoing support from home comfort</li>
+              </ul>
             </div>
             
             <div className="bg-white p-8 rounded-2xl shadow-lg border-l-4" style={{ borderLeftColor: '#9DA774' }}>
               <div className="text-4xl mb-4">🏠</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
-              <p className="text-gray-600">
-                Convenient in-home therapy sessions in your baby&apos;s familiar environment, 
-                tailored to your family&apos;s schedule and needs.
-              </p>
+              <ul className="text-gray-600 space-y-2">
+                <li>• In-home therapy sessions</li>
+                <li>• Baby's familiar environment</li>
+                <li>• Tailored to family's schedule</li>
+                <li>• Personalized to your needs</li>
+              </ul>
             </div>
           </div>
         </div>
