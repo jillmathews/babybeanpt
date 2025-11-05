@@ -251,8 +251,8 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Home Visits</h3>
               <ul className="text-gray-600 space-y-2">
                 <li>• In-home therapy sessions</li>
-                <li>• Baby's familiar environment</li>
-                <li>• Tailored to family's schedule</li>
+                <li>• Baby&apos;s familiar environment</li>
+                <li>• Tailored to family&apos;s schedule</li>
                 <li>• Personalized to your needs</li>
               </ul>
             </div>
